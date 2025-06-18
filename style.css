@@ -108,7 +108,7 @@ section > h3 {
     align-items: center;
     text-align: center;
     margin-top: 5px;
-    background-color: rgba(255, 255, 255, 0.767);    
+    background-color: rgba(255, 255, 255, 0.404);    
     border: 4px groove #92BFD9;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
@@ -121,4 +121,56 @@ section > h3 {
     width:25 px; 
     height: auto; 
     margin: 0 5px; 
+}
+
+
+.form-contato {
+    max-width: 450px;
+    margin: 15px auto 0; 
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    border: 2px groove #92BFD9;
+}
+
+.form-contato h3 {
+    font-family: "Share Tech Mono", sans-serif;
+    color: #4e085f;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 1.1rem; 
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 80%;
+    padding: 8px; 
+    margin-bottom: 8px;
+    border: 1px solid #92BFD9;
+    border-radius: 4px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 0.9rem; 
+}
+
+.form-contato textarea {
+    height: 80px; /* Altura fixa reduzida */
+    resize: vertical; /* Permite ajuste manual só na vertical */
+}
+
+.form-contato button {
+    width: 50%; /* Botão mais estreito */
+    padding: 8px;
+    margin: 5px auto 0; /* Centralizado */
+    display: block;
+    background-color: #4e085f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.form-contato button:hover {
+    background-color: #AA47DB;
+    transform: scale(1.02); /* Efeito sutil */
 }
