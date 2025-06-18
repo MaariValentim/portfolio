@@ -35,9 +35,9 @@ header > h2{
     font-family: "Share Tech Mono", Helvetica, sans-serif;
     font-size: 30px;
 }
+
  #inicio{
     font: 18px black, "Inter Tight", Helvetica, sans-serif;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
