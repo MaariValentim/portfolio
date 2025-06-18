@@ -2,101 +2,108 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap');
 
- nav {
-            background-color:#4e085f;
-            padding: 10px 0px ;
-            text-align: center;
-            width: 100%;
-            top: 0px;
-            font-family: "Share Tech Mono", Helvetica, sans-serif;
+nav {
+    background-color: #4e085f;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    font-family: "Share Tech Mono", sans-serif;
+}
 
-        }
-        
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        
-       
+nav > a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
 
-body{
+body {
     background-image: linear-gradient(to bottom, #AA47DB, #4AD9B0, #4e085f);
     background-attachment: fixed;   
 }
 
-header > h1{
-    font-family: "Inter Tight", Helvetica, sans-serif;
+header > h1 {
+    font-family: "Inter Tight", sans-serif; /
     font-size: 40px;
-   
 }
 
-header > h2{
-    font-family: "Share Tech Mono", Helvetica, sans-serif;
+header > h2 {
+    font-family: "Share Tech Mono", sans-serif;
     font-size: 30px;
 }
 
- #inicio{
-    font: 18px black, "Inter Tight", Helvetica, sans-serif;
+
+#inicio {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+    color: black;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.767); 
     margin: 5px 10px 5px 10px;  
     border: 4px groove #92BFD9;
-    padding:0px 5px;
+    padding: 0px 5px;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
-    
 }
-section > h2{
-    font-family: "Share Tech Mono", Helvetica, sans-serif;
+
+section > h2 {
+    font-family: "Share Tech Mono", sans-serif; 
     font-size: 25px;
     text-align: center;
-
 }
-#sobre-mim{
-    font: 16px black, "Inter Tight", Helvetica, sans-serif;
+
+
+#sobre-mim {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    color: black;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.767); 
     margin: 5px 10px 5px 10px;  
     border: 4px groove #92BFD9;
-    padding:0px 5px;
+    padding: 0px 5px;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
 }
 
-section > h3{
 
+section > h3 {
+    font-family: "Share Tech Mono", sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
 }
 
-#formacao{
-    font: 15px black, "Inter Tight", Helvetica, sans-serif;
+
+#formacao {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 15px;
+    color: black;
     justify-content: space-between;
     align-items: center;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.767); 
     margin: 5px 10px 5px 10px;  
     border: 4px groove #92BFD9;
-    padding:0px 5px;
+    padding: 0px 5px;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
 }
-#portifolio{
 
+#portfolio {
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
     text-align: center;
     font-size: 20px;
-    background-color:#aa47dbb6; 
-    border: groove #92BFD9;
+    background-color: #aa47dbb6; 
+    border: 4px groove #92BFD9; 
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
-    image-orientation: flip;   
+    
 }
 
-#contato{
-    
+#contato {
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -105,4 +112,13 @@ section > h3{
     border: 4px groove #92BFD9;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+#contato a:hover {
+    opacity: 0.8;
+}
+#contato > img {
+    width:25 px; 
+    height: auto; 
+    margin: 0 5px; 
 }
