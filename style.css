@@ -120,6 +120,13 @@ section > h3 {
     opacity: 0.8;
 }
 
+#portfolio > img{
+        
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 #contato {
     justify-content: space-between;
     align-items: center;
